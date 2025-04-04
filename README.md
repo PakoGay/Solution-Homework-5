@@ -1,7 +1,7 @@
 # Solution-Homework-5
 # Design Patterns: Proxy & Flyweight
 This repository contains Java implementations of two important design patterns: Proxy and Flyweight.
-1. Proxy Pattern – Real Estate Image System
+# 1. Proxy Pattern – Real Estate Image System
 Problem:
 
 Large high-resolution property images take time to load. The website should display thumbnails instantly and only load the full image when a user requests it.
@@ -28,8 +28,7 @@ ImageUploadService.java – Restricts unauthorized uploads.
 
 RealEstateImageApp.java – Demo client.
 
-2. Flyweight Pattern – Map Marker System
-
+# 2. Flyweight Pattern – Map Marker System
 Problem:
 
 A map application must render thousands of markers (hospitals, restaurants, gas stations). Without optimization, each marker would store redundant style data, consuming excessive memory.
